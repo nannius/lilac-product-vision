@@ -41,7 +41,7 @@ const Portfolio = () => {
                 variant="secondary" 
                 size="sm" 
                 className="bg-white/20 hover:bg-white/30 text-white border-white/30"
-                onClick={() => window.open('https://linkedin.com/in/danitza-cerna', '_blank')}
+                onClick={() => window.open('https://linkedin.com/in/danitza-cerna-abarca/', '_blank')}
               >
                 <Linkedin className="w-4 h-4 mr-2" />
                 LinkedIn
@@ -50,7 +50,7 @@ const Portfolio = () => {
                 variant="secondary" 
                 size="sm" 
                 className="bg-white/20 hover:bg-white/30 text-white border-white/30"
-                onClick={() => window.open('https://github.com/danitza-cerna', '_blank')}
+                onClick={() => window.open('https://github.com/nannius', '_blank')}
               >
                 <Github className="w-4 h-4 mr-2" />
                 GitHub
@@ -59,7 +59,7 @@ const Portfolio = () => {
                 variant="secondary" 
                 size="sm" 
                 className="bg-white/20 hover:bg-white/30 text-white border-white/30"
-                onClick={() => window.open('https://behance.net/danitza-cerna', '_blank')}
+                onClick={() => window.open('https://www.behance.net/DanitzaC', '_blank')}
               >
                 <Globe className="w-4 h-4 mr-2" />
                 Behance
@@ -343,7 +343,7 @@ const Portfolio = () => {
               variant="ghost" 
               size="sm" 
               className="text-background hover:text-primary hover:bg-background/10"
-              onClick={() => window.open('https://github.com/danitza-cerna', '_blank')}
+              onClick={() => window.open('https://github.com/nannius', '_blank')}
             >
               <Github className="w-4 h-4 mr-2" />
               GitHub
