@@ -15,11 +15,21 @@ const Portfolio = () => {
             <div className="flex flex-wrap justify-center gap-6 text-sm md:text-base">
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <span>danitza.cerna.a@gmail.com</span>
+                <button 
+                  onClick={() => window.open('mailto:danitza.cerna.a@gmail.com', '_self')}
+                  className="hover:text-white/80 transition-colors underline"
+                >
+                  danitza.cerna.a@gmail.com
+                </button>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                <span>+569 95713674</span>
+                <button 
+                  onClick={() => window.open('tel:+56995713674', '_self')}
+                  className="hover:text-white/80 transition-colors underline"
+                >
+                  +569 95713674
+                </button>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
@@ -27,15 +37,30 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="flex justify-center gap-4 mt-6">
-              <Button variant="secondary" size="sm" className="bg-white/20 hover:bg-white/30 text-white border-white/30">
+              <Button 
+                variant="secondary" 
+                size="sm" 
+                className="bg-white/20 hover:bg-white/30 text-white border-white/30"
+                onClick={() => window.open('https://linkedin.com/in/danitza-cerna', '_blank')}
+              >
                 <Linkedin className="w-4 h-4 mr-2" />
                 LinkedIn
               </Button>
-              <Button variant="secondary" size="sm" className="bg-white/20 hover:bg-white/30 text-white border-white/30">
+              <Button 
+                variant="secondary" 
+                size="sm" 
+                className="bg-white/20 hover:bg-white/30 text-white border-white/30"
+                onClick={() => window.open('https://github.com/danitza-cerna', '_blank')}
+              >
                 <Github className="w-4 h-4 mr-2" />
                 GitHub
               </Button>
-              <Button variant="secondary" size="sm" className="bg-white/20 hover:bg-white/30 text-white border-white/30">
+              <Button 
+                variant="secondary" 
+                size="sm" 
+                className="bg-white/20 hover:bg-white/30 text-white border-white/30"
+                onClick={() => window.open('https://behance.net/danitza-cerna', '_blank')}
+              >
                 <Globe className="w-4 h-4 mr-2" />
                 Behance
               </Button>
@@ -305,11 +330,21 @@ const Portfolio = () => {
         <div className="container mx-auto px-6 text-center">
           <p className="mb-4">&copy; 2024 Danitza Cerna. Todos los derechos reservados.</p>
           <div className="flex justify-center gap-4">
-            <Button variant="ghost" size="sm" className="text-background hover:text-primary hover:bg-background/10">
+            <Button 
+              variant="ghost" 
+              size="sm" 
+              className="text-background hover:text-primary hover:bg-background/10"
+              onClick={() => window.open('mailto:danitza.cerna.a@gmail.com', '_self')}
+            >
               <Mail className="w-4 h-4 mr-2" />
               Contacto
             </Button>
-            <Button variant="ghost" size="sm" className="text-background hover:text-primary hover:bg-background/10">
+            <Button 
+              variant="ghost" 
+              size="sm" 
+              className="text-background hover:text-primary hover:bg-background/10"
+              onClick={() => window.open('https://github.com/danitza-cerna', '_blank')}
+            >
               <Github className="w-4 h-4 mr-2" />
               GitHub
             </Button>
