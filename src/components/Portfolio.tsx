@@ -156,6 +156,20 @@ const Portfolio = () => {
               </CardTitle>
             </CardHeader>
             <CardContent className="pt-6 space-y-8">
+              {/* Current Role - Masterbase */}
+              <div className="border-l-4 border-primary pl-6">
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="text-lg font-semibold">Diseñadora UX/UI</h3>
+                  <Badge className="bg-primary text-primary-foreground">Actualidad</Badge>
+                </div>
+                <p className="text-sm text-muted-foreground mb-3">Masterbase®</p>
+                <ul className="text-muted-foreground space-y-1 text-sm">
+                  <li>• Generación de Design System de la empresa (tokens, componentes y documentación)</li>
+                  <li>• Trabajo de diferentes pantallas internas</li>
+                  <li>• Logro: Utilización y unificación del sistema gráfico interno minimizando tiempos en la producción de nuevos contenidos digitales, asegurando accesibilidad y funcionalidad</li>
+                </ul>
+              </div>
+
               {/* Freelance Designer */}
               <div className="border-l-4 border-primary pl-6">
                 <div className="flex justify-between items-start mb-2">
